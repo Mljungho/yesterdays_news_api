@@ -12,6 +12,7 @@ gem 'rack-cors'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.4'
 gem 'pundit', github: 'varvet/pundit'
 gem 'faker'
+gem 'pundit-matchers', '~> 1.7.0'
 
 group :development, :test do
   gem 'factory_bot_rails'
